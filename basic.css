@@ -1,0 +1,224 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:100%;
+    width:40%;
+    height:auto;
+    position: relative;
+    left:30%;    
+
+}
+
+body h1{
+    text-transform: capitalize;
+}
+body div{
+    box-shadow: 10px 5px 15px grey;
+    border: 1px solid black;
+    border-right:none;
+    border-bottom:none;
+}
+body div:last-of-type {
+    border:1px solid black;
+    box-shadow: none;
+}
+.product{
+    background-color:mintcream;
+    padding: 0 5% 0 5%;
+    box-shadow: 10px 5px 15px grey;
+}
+.product h1{
+    color:black;
+}
+.product h2{
+    text-transform: capitalize;
+}
+.product footer{
+    color: red;
+    padding-bottom:5px;
+    margin-bottom:15px;
+    
+}
+/*Seleccionamos todos los elementos dentro de un selector con el ascerisco.!important: TODOS los elementos sin distinción*/
+.product footer *{
+    font-weight:bold;
+    
+}
+/*cats and dogs css*/
+.catsAndDogs{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(236, 235, 217, 0.7);
+    padding: 20px 5% 20px 5%;
+    
+
+}
+.catsAndDogs p:first-child {
+    color: brown;
+    font-style: italic;
+    color: green;
+    text-transform: capitalize;
+}
+.catsAndDogs p:first-child a{
+    text-decoration: none;
+    color:green;
+}
+#cat{
+    color: brown;
+     unicode-bidi:bidi-override;
+     direction:rtl;
+}
+/*Fin cats and dogs*/
+
+/*Metaphor css*/
+.metaphor{
+    padding: 5px 5px 20px 5px;
+    font-family: :verdana, sans-serif;
+    font-size:75%;
+    color:tomato;
+    background-color: rgba(47, 115, 69, 0.1);
+    margin:10px 0 10px 0;
+   
+}
+.metaphor header{
+    background-color: rgba(76, 76, 76, 0.44);
+    position:relative;
+    bottom:15px;
+    
+}
+.metaphor h1{
+    color:white;
+    text-transform:capitalize;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    font-size:25px;
+    text-shadow: 1px 10px 1px #000;
+    
+}
+.metaphor li{
+    list-style :none;
+    display:block;
+    color:black;
+    padding-bottom:15px;
+    /*sombras en el texto*/
+    text-shadow: 1px 12px 5px #111;
+    /*reversed sentences*/
+    unicode-bidi:bidi-override;
+    direction:rtl;
+}
+/*interesante etiqueta para tener en la mente. Trabajar más la forma de añadir las comillas*/
+q { quotes: ‘"’ ‘"’ ;}
+/*Fin Metaphor*/
+
+/*Inicio Bar Jokes*/
+.barJokes{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:100%;
+    background-color:rgba(193, 147, 10, 0.3);
+    padding-bottom:10px;
+    
+    
+}
+.barJokes header{
+    background-color: rgba(128, 106, 39, 0.5);
+    position: relative;
+    margin:0px 5px 0 5px;
+    top:5px;
+    
+}
+.barJokes h1{
+    text-transform: capitalize;
+    color:rgba(128, 79, 39, 1);
+}
+.barJokes h2{
+    text-transform: capitalize;
+    font-style: italic;
+    color:rgba(128, 39, 44, 1);
+     margin:0px 5px 0 5px;
+}
+.barJokes li{
+    margin: 20px 0 10px 0;
+    text-decoration: none;
+    display:block;
+    /*text-decoration no funciona si no colocas una forma de display*/
+}
+.negritas li:first-letter{
+    /*pseudo-elemento ::first-word parece no actuar. Preguntar Raul*/
+    text-transform:capitalize;
+    
+}
+/*Fin Bar Jokes*/
+/*inicio studying*/
+#elUnico{
+    border:none;
+    }
+.studyingAdvice{
+    padding: 0;
+    margin: 10px 0 30px 0;
+    background-color:rgba(193, 147, 10, 0.3); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:100%;
+}
+
+.studyingAdvice header{
+     background-color: rgba(128, 106, 39, 0.5);
+    position: relative;
+    margin:-15px 5px 0 5px;   
+}
+.titulitis{
+    color: rgba(128, 39, 44, 1);
+    position:relative;
+    
+}
+.titulitis:first-letter{
+    text-transform: capitalize;
+}
+.studyingAdvice header h1{
+    color:white;
+    font-size:30px;
+    
+}
+
+#elUnico li{
+    position:relative;
+    display: block;
+    text-decoration: none;
+    padding-top:20px;
+    
+}
+#elUnico ul li:first-letter{
+    text-transform: capitalize;
+}
+#elUnico ul li:first-child+li+li{
+    color: red;
+    text-transform: capitalize;
+}
+/* no consigo encontrar la palabra con last
+#elUnico ul li:last-child::nth-last-word(2){
+    color: red;
+}*/
+#elUnico ul li:first-child+li+li+li+li{
+    color: red;
+    text-transform: capitalize;
+}
+#peque{
+     position:relative;
+    word-wrap: break-word;
+    
+}
+small{
+    font-size: 65%;
+   padding-right: 20%;
+    unicode-bidi:bidi-override;
+     word-wrap: break-word;
+   
+}
+.studying{
+    padding: 20px;
+}
+
+
+/*Fin Stuying*/
+
+
