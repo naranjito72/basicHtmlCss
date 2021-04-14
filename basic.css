@@ -25,6 +25,7 @@ body div:last-of-type {
     box-shadow: none;
 }
 .product{
+	margin-top: 3rem;
     background-color:mintcream;
     padding: 0 5% 0 5%;
     box-shadow: 10px 5px 15px grey;
